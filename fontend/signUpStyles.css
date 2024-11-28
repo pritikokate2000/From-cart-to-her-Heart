@@ -1,0 +1,85 @@
+body {
+    font-family: 'Updock', cursive;
+    background-color: #fff8f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(214, 54, 78);
+    margin-bottom: 20px;
+}
+
+.signup-form .input-group {
+    margin-bottom: 15px;
+}
+
+.signup-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 152, 168);
+    outline: none;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+}
+
+.signup-form input:focus {
+    border-color: rgb(255, 100, 130);
+}
+
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 152, 168);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: rgb(255, 100, 130);
+}
+
+.login-prompt {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(214, 54, 78);
+}
+
+.login-prompt a {
+    color: rgb(255, 100, 130);
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
+
+.sign-up-form input placeholder{
+    font-family: 'Updock', cursive;
+}

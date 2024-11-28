@@ -1,0 +1,35 @@
+.product-name{
+    font-weight:bold;
+    font-size:17px;
+    line-height:24px;
+    margin-bottom:10px;
+}
+
+
+.product-price{
+    font-size: 16.5px;
+    /* color: rgb(75, 70, 70); */
+    /* margin-bottom: 18px; */
+}
+
+
+.product-offer{
+    font-size:16px;
+    color:green;
+    margin-bottom:18px;
+    background-color: rgba(4, 216, 4, 0.3);
+}
+
+.product-description{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    line-height: 20px;
+    /* word-spacing: 0%; */
+}
+
+.original{
+    color:rgb(75, 70, 70);
+}
+.after-offer{
+    color:black;
+}

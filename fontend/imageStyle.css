@@ -1,0 +1,36 @@
+.product-image{
+    object-fit:cover;
+    width:100%;
+    /* border:1px solid black; */
+}
+
+.thumbnail-row{
+    position:relative;
+}
+
+.video-metadata-row{
+    display:grid;
+    grid-template-columns:60px 1fr;  /*------->change*/
+    column-gap:0px;
+    /* border:1px solid black; */
+}
+
+ .video-card{
+    /* margin-top:100px; */
+    display:inline-block; 
+    margin:10px;
+    
+} 
+
+  .video-grid{
+   display:grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+   gap:20px;
+   position:relative;
+   z-index:1;
+   margin-top:20px;
+
+   
+}  
+
+
